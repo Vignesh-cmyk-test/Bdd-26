@@ -7,5 +7,5 @@ Then Datatable is Verify the loginpage Headerexample.
 
 Examples:
 |username | Password|
-|Vignesh | Test|
-|Test | Vignesh|
+| a    | 123  |
+| a    | 1234 |
