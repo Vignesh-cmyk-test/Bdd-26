@@ -6,11 +6,11 @@ import io.cucumber.junit.CucumberOptions;
 
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "features/Thanos.feature", 
+@CucumberOptions(features = "features/Thanosbg.feature", 
                              glue = {"stepdefinitions","hooks"},
                              dryRun = false,
                              monochrome = true,
-                             tags = "@hooks",
+                             tags = "@backtag",
                              plugin = { "pretty",
                             	        "html:target/cucumber-reports/html-report",
                             	        "json:target/cucumber-reports/cucumber.json"},

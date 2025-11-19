@@ -5,24 +5,24 @@ import io.cucumber.java.Before;
 
 public class Hooks {
 	
-	@Before(order=1)
+/*	@Before()
 	public void beforeMeth() {
 		System.out.println("Before that thanos should be born");
 	}
 	
-	@Before(order=2)
+	@Before()
 	public void beforeMeth1() {
 		System.out.println("Thanos should think about killing");
 	}
 	
-	@After(order=1)
+	@After()
 	public void afterMeth() {
 		System.out.println("After all thanos should be died");
 	}
 	
-	@After(order=2)
+	@After()
 	public void afterMeth1() {
 		System.out.println("Thanos accomplished mission");
-	}
+	} */
 
 }
