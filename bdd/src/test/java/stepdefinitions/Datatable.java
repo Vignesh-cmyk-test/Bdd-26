@@ -57,7 +57,7 @@ public class Datatable {
 		boolean currenturl = driver.getCurrentUrl().contains("register");
 		   
 		  if(currenturl) {
-			  System.out.println("Login failed");
+			  System.out.println("Login failed checked with Vscode");
 		  }else {
 			  System.out.println("Login Passed checked with Vscode");
 		  }
